@@ -1,6 +1,6 @@
 import axios from '../axios';
 import * as queryString from 'query-string';
-
+//adminService
 const adminService = {
 
     /**

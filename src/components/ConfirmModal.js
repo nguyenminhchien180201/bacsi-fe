@@ -6,7 +6,7 @@ import { Modal } from 'reactstrap';
 import './ConfirmModal.scss';
 import * as actions from "../store/actions";
 import { KeyCodeUtils } from "../utils";
-
+//ConfirmModal
 class ConfirmModal extends Component {
 
     constructor(props) {

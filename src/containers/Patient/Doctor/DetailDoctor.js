@@ -4,6 +4,7 @@ import './DetailDoctor.scss';
 import HomeHeader from '../../HomePage/HomeHeader';
 import { getDetailInforDoctor } from '../../../services/userService';
 import { LANGUAGES } from "../../../utils";
+//DetailDoctor
 class DetailDoctor extends Component {
     constructor(props) {
         super(props);

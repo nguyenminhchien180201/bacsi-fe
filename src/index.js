@@ -10,7 +10,7 @@ import IntlProviderWrapper from "./hoc/IntlProviderWrapper";
 
 import { Provider } from 'react-redux';
 import reduxStore, { persistor } from './redux';
-
+//renderApp
 const renderApp = () => {
     ReactDOM.render(
         <Provider store={reduxStore}>

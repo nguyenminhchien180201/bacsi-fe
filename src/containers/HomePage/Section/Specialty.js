@@ -5,6 +5,7 @@ import { FormattedMessage } from 'react-intl';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+//Specialty
 class Specialty extends Component {
 
     render() {
