@@ -111,6 +111,7 @@ export const saveUserFailed = () => ({
 export const fetchAllUsersStart = () => {
     return async (dispatch, getState) => {
         try {
+            console.log('1');
             let res = await getAllUsers("ALL");
             if (res && res.errCode === 0) {
                 dispatch(fetchAllUsersSuccess(res.users.reverse()))
